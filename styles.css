@@ -1,0 +1,298 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+    color: rgb(101, 100, 100);
+   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+
+}
+.header{
+    border: 1px solid #dbd0d0;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  
+  }
+
+
+.header-left{
+
+   display: flex;
+   align-items: center;
+   padding-left: 17px;
+    width: 20%;
+}
+
+.header-left img{
+    width: 145px;
+    padding-left: 26px;
+}
+
+.header_middle{
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid #afafaf;
+    height: 43px;
+    border-radius: 21px;
+    padding-left: 23px;
+    width: 50%;
+   
+    
+}
+.material-symbols search{
+padding-left: 10px;
+   
+}
+
+.header_middle input{
+    height: 31px;
+    width: 84%;
+    padding-left: 22px;
+    margin-left: 20px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
+ 
+    .header_right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+}
+
+.header_right span{
+
+    margin-right: 23px;
+}
+
+.sidebars{
+
+padding-top: 20px;
+width: 15%;
+border-right: 1px solid #afafaf;
+
+}
+
+.side_bar{
+ height: 270px;
+border-bottom: 1px solid #afafaf;
+
+}
+
+
+
+
+.sidebar_options{
+
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    
+}
+.sidebar_options_active{
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 122, 122);
+    padding-left: 15px;
+
+
+}
+.sidebar_options:hover{
+
+    background-color: lightgray;
+   
+
+}
+
+.sidebar_options h3{
+    padding-left: 15px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    
+}
+
+.sidebar_options_active h3{
+    padding-left: 15px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    
+}
+
+
+
+.compose{
+      
+    display: flex;
+    height: 66px;
+    width: 137px;
+    border-radius: 63px;
+    background-color: white;
+    margin-bottom: 15px;
+    align-items: center;
+    border: 4px solid #afafaf;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.compose h1{
+    color: rgb(235, 175, 175);
+    padding-left: 10px;
+    padding-right: 4px;
+    font-size: 58px;
+}
+
+.sidemid_bar h2{
+        font-size: 20px;
+       margin-top: 6px;
+       margin-bottom: 7px;
+       padding-left: 15px;
+}
+.sidemid_bar{
+     border-bottom:  1px solid #afafaf;
+}
+
+.sidefoot_bar{
+    border-bottom:  1px solid #afafaf;
+    padding: 5px;
+    
+
+}
+
+.sidefoot_bar h3{
+
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-body{
+    display: flex;
+    height: 100vh;
+}
+body{
+
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.middle-body{
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.mid_header{
+     display: flex;
+     position: sticky;
+     top: 0;
+     justify-content: space-between;
+    border-bottom:  1px solid #afafaf;
+     z-index: 998;
+     height: 30px;
+     cursor: pointer;
+    padding: 14px;
+    background-color: white;
+}
+
+.mid_headerLeft{
+    display: flex;
+    align-items: center;
+}
+.mid_headerRight{
+
+    display: flex;
+    align-items: center;
+}
+
+.mid_header i{
+
+    margin: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+  .main_section{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #afafaf;
+  }
+
+  .section1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 30px;
+    height: 60px;
+  }
+  .section1 i{
+  padding-right: 21px;
+  }
+
+  .section1:hover{
+      background-color: lightgray
+  }
+
+.Email{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 8px;
+}
+
+.Email_Left {
+    display: flex;
+    align-items: center;
+    width: 21%;
+}
+
+.email_right{
+display: flex;
+align-items: center;
+width: 12%;
+
+}
+
+.email_mid{
+    width: 52%;
+}
+
+.email_right p{
+margin-right: 46px;
+}
+
+.Email_Left i{
+
+    padding-left: 10px;
+}
+.Email_Left input{
+
+    padding-left: 10px;
+}
+.Email_Left h3{
+
+    padding-left: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
